@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
-    background-image: url(BACKGROUND.jfif);
+    background-image: url(/imagens/BACKGROUND.jfif);
     justify-content: center;
     align-items: center;
     height: 100vh;
