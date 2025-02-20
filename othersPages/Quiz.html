@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pokémon - Primeira Geração</title>
+    <link rel="stylesheet" href="csspokeQuiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Pokémon - Primeira Geração</h1>
+        <div id="quiz">
+            <div class="question-container">
+                <p id="question"></p>
+                <div id="options"></div>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Próxima</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Você completou o quiz!</h2>
+            <p id="score"></p>
+            <button onclick="resetQuiz()">Reiniciar Quiz</button>
+        </div>
+    </div>
+    <script src="QuizJS.js"></script>
+</body>
+</html>
